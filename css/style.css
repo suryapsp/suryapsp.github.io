@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Poppins', 'sans-serif';
     font-size: 16px;
     line-height: 1.5;
@@ -14,96 +14,102 @@ body{
     background: gray;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-h1,h2{
+h1,
+h2 {
     margin-bottom: 12px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.container{
+.container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
-.navbar{
+.navbar {
     background: rgb(10, 10, 10);
     color: white;
     height: 60px;
 }
 
-.navbar .logo{
+.navbar .logo {
     font-size: x-large;
     font-weight: bold;
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: gray;
 }
 
-.navbar .container{
+.navbar .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
 }
 
-.navbar ul li{
+.navbar ul li {
     margin-left: 20px;
 }
 
-.header{
+.header {
     background-color: rgb(49, 49, 49);
     color: white;
-    min-height: 1040px;
+    min-height: 610px;
 }
 
-.header h1{
+.header h1 {
     font-size: 3rem;
     font-weight: bold;
     line-height: 1.2;
 }
 
-.header img{
-    max-width: 1040px;
+.header p {
+    font-size: large;
 }
 
-.header .container{
+.header img {
+    max-width: 400px;
+}
+
+.header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.boxes h1{
+.boxes h1 {
     font-size: 3rem;
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
 }
 
-.boxes .container{
+.boxes .container {
     display: flex;
     justify-content: space-between;
+    min-height: 610px;
 }
 
-.box{
+.box {
     flex: 1;
     background: rgb(49, 49, 49);
     color: white;
@@ -113,8 +119,9 @@ ul{
     padding: 15px 20px;
 }
 
-.box a{
+.box a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
+
