@@ -82,10 +82,6 @@ ul {
     line-height: 1.2;
 }
 
-.header p {
-    font-size: large;
-}
-
 .header img {
     max-width: 400px;
 }
@@ -125,3 +121,44 @@ ul {
     font-size: 18px;
 }
 
+.contact-details{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    min-height: 670px;
+}
+
+.contact-details h1{
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.contact-details a{
+    text-decoration: none;
+    color: white;
+    margin-top: 200px;
+}
+
+.contact-details .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons{
+    font-size: 50px;
+}
+
+@media(max-width: 768px){
+    .header .container{
+        flex-direction: column;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .boxes .container{
+        display: block;
+        text-align: center;
+    }
+}
