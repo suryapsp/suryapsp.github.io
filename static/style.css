@@ -1,0 +1,72 @@
+body {
+	font-family: sans-serif ;
+	background: #2b2b2b ;
+	color: #eef536 ;
+}
+
+#quote{
+	all: unset;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px ;
+	margin: auto ;
+}
+
+img {
+	max-width: 100% ;
+}
+
+header h1 {
+	text-align: left ;
+}
+
+footer {
+	text-align: center ;
+	clear: both ;
+}
+
+#navbar{
+	text-align: center;
+	color: rgb(171, 255, 74);
+	font-size: 20px;
+}
+
+.front-img{
+	max-width: 50%;
+	max-height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/* For TAGLIST.HTML */
+.taglist {
+	text-align: center ;
+	clear: both ;
+}
+
+/* For NEXTPREV.HTML */
+#nextprev {
+	/* The container for both the previous and next articles. */
+}
+#prevart {
+	float: left ;
+	text-align: left ;
+}
+#nextart {
+	float: right ;
+	text-align: right ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+}
