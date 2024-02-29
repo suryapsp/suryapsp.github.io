@@ -1,7 +1,8 @@
 body {
 	font-family: sans-serif ;
-	background: #2b2b2b ;
+	background: #121212 ;
 	color: #eef536 ;
+	font-size: 20px;
 }
 
 #quote{
@@ -14,6 +15,7 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
+	color: rgb(136, 255, 0);
 }
 
 main {
@@ -27,6 +29,7 @@ img {
 
 header h1 {
 	text-align: left ;
+	text-decoration-line: underline;
 }
 
 footer {
@@ -34,10 +37,19 @@ footer {
 	clear: both ;
 }
 
+li {
+	padding-bottom: 15px;
+}
+
 #navbar{
 	text-align: center;
 	color: rgb(171, 255, 74);
 	font-size: 20px;
+}
+
+#stuff{
+	color: rgb(136, 255, 0);
+	z-index: 1;
 }
 
 .front-img{
