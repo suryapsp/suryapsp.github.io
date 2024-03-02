@@ -48,8 +48,8 @@
 			{{ block "main" . }}
 			{{ .Content }}
 			{{ end }}
-			{{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
-			{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}}
+			<!-- {{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
+			{{ if .Param "taglist" }}{{ partial "taglist.html" . }}{{ end -}} -->
 		</article>
 	</main>
 	{{ block "footer" . }}

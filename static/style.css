@@ -5,6 +5,10 @@ body {
 	font-size: 20px;
 }
 
+h1, h2{
+	color: pink;
+}
+
 #quote{
 	all: unset;
 	font-size: 20px;
