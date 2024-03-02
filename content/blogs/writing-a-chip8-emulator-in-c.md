@@ -22,13 +22,13 @@ You will also require basic understanding of binary and hexadecimal number syste
 - Keyboard
     - Original CHIP8 has 16 keyboard keys which match to first 16 hexadecimal numbers 0 to F.
     - This Keyboard layout will be used.
-    ```markdown
-        CHIP8                 USER KEYBOARD
+    ```c
+        CHIP8         KEYBOARD
 
-        1 2 3 C                1 2 3 4
-        4 5 6 D                Q W E R
-        7 8 9 E                A S D F
-        A 0 B F                Z X C V
+        1 2 3 C       1 2 3 4
+        4 5 6 D       Q W E R
+        7 8 9 E       A S D F
+        A 0 B F       Z X C V
     ```
 
  
