@@ -30,5 +30,23 @@ You will also require basic understanding of binary and hexadecimal number syste
         7 8 9 E       A S D F
         A 0 B F       Z X C V
     ```
+- Display
+    - CHIP8 used 64x32 pixels monochrome(only black and white) display.
 
- 
+- Timers
+    - It has an 8 bit delay timer which decrements at a rate of 60Hz(60 times per second) until it reaches zero.
+    - It has an 8 bit sound timer which decrements at a rate of 60Hz(60 times per second) unitl it reaches zero.
+
+- 16 8-bit registers
+    - CHIP8 has 16 8 bit general purpose Registers V0 to VF.
+    - VF is special becuse it is used as a flag register. Many programs set it to either 1 or 0.
+
+- 16 bit program counter
+    - program counter usually referred as PC is used to store the address of next instruction to execute.
+
+- 16 bit index register
+    - index register or I is a special register used to store memory address.
+
+- 16 level stack
+    - CHIP8 has 16 levels of stack which is used to call functions and return from them.
+
