@@ -9,6 +9,11 @@ h1, h2, h3{
 	color: pink;
 }
 
+pre{
+	overflow-x: auto;
+	font-size: large;
+}
+
 #quote{
 	all: unset;
 	font-size: 20px;
